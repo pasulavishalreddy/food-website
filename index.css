@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-left{
+    display: flex;
+
+}
+
+.header-left>img{
+    height:60px;
+    width:60px;
+
+}
+
+.header-center{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: orange;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right>img{
+    height:30px ;
+    width:80px ;
+    
+}
+
+.cards{
+    display: flex;
+     justify-content: space-around;
+     padding:30px ;
+    
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+   
+    
+}
+
+.card1>h1,.card2>h1,.card3>h1{
+    display: flex;
+    justify-content: center;
+}
+
+.card1>img,.card2>img,.card3>img{
+    height: 50%;
+    width: 90%;
+   
+}
+
+.card1>a,.card2>a,.card3>a{
+    color:#89714E;
+
+}
+
+.card1 a:hover,.card2 a:hover,.card3 a:hover{
+    color: orange;
+}
+
+.category{
+   display: flex;
+   gap:15px;
+   flex-direction: column;
+    
+}
+
+.category>h2{
+    display:block;
+    background-color: #EBE6DD;
+    width:100% ;
+    text-align: center;
+    color: #85714E;
+    padding:10px ;
+   
+}
+
+.recipes{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+
+}
+
+.recipe1,.recipe2,.recipe3{
+    height: 500px;
+    width:350px ;
+    position: relative;
+   
+}
+
+
+.recipe1>img,.recipe2>img,.recipe3>img{
+    height:100%;
+    width:100% ;
+    padding:20px ;
+    
+}
+
+.recipe1>p,.recipe2>p,.recipe3>p{
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    padding:10px 45px ;
+    /* width: 40%; */
+    position: absolute;
+    top:50% ;
+    left:30% ;
+
+}
+
+
+
+
+
+
+
+
+
+
